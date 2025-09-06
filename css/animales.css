@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Pacifico&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Estonia&family=Ultra&display=swap');
+ 
+#A1 {
+    background-color: #72BAA9;
+    font-size: 20px;
+    border-radius: 0px;
+}
+
+ body {
+    background-color: #272727;
+    height: 100vh;
+}
+ img {
+    max-width: 100%; 
+    height: auto; 
+    border-radius: 10px; 
+    margin: 0 auto;
+    top: 3%;
+} 
+
+a {
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: ghostwhite;
+    color: slateblue;
+    font-size: 18px;
+    border-radius: 10px;
+    display: inline-block;
+    text-align: center;
+    font-weight: 600;
+}
+
+h1 {
+    color: white;
+    font-family: Pacifico;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 100;
+    margin: 10px 10px 20px;
+    position: absolute;
+    top: 10%;
+    margin-left: 47%;
+    display: flex;
+}
+
+
+
+.text p {
+    display: block;
+    overflow: hidden;
+    font-size: 17px;
+    margin: 0 0 10px;
+    margin-bottom: 7px;
+    color: white;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+ .imagenes-container {
+    display: grid; 
+    justify-content: center;
+}
+ .imagenes-container img {
+    display: grid;
+    width: auto; 
+    height: auto; 
+    border-radius: 10px; 
+    top: 5%;
+}
+
+nav ul {
+    display: block;
+    overflow: hidden;
+    font-size: 17px;
+    margin: 0 0 10px;
+    margin-bottom: 7px;
+    color: white;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    list-style: none;
+}
+.footer {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;  
+    padding: 10px;
+    background-color: #272727;
+    color: gold;
+}
+.nombre{
+    color:white;
+}
+.social-icons{
+    border: none;
+}
+.navbar-brand{
+    font-size: 25px;
+    font-family: Ultra;
+}
